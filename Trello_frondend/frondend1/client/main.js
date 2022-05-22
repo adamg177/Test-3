@@ -10,6 +10,10 @@ import Login from '/imports/ui/components/Login.vue';
   
 import Register from '/imports/ui/components/Register.vue';
 
+import Navigation from '/imports/ui/components/Navigation.vue';
+
+import Home from '/imports/ui/components/Home.vue';
+
 
 Meteor.startup(() => {
   Vue.use(VueMeteorTracker);
@@ -17,14 +21,24 @@ Meteor.startup(() => {
 
   const routes = [
       {
-        path: '/login',
+        path: '/Login',
         name: 'Login',
         component: Login
       },
       {
-        path: '/register',
+        path: '/Navigation',
+        name: 'Navigation',
+        component: Navigation
+      },
+      {
+        path: '/Register',
         name: 'Register',
         component: Register
+      },
+      {
+        path: '/Home',
+        name: 'Home',
+        component: Home
       }
     ];
 

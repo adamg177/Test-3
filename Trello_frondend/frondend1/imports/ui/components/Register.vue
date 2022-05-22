@@ -1,19 +1,20 @@
 <template>
-   
-<center>
+       <form @submit.prevent="submit">
+        <br><br><br><br>
+            
+      <br><br><br>  
+      <center><h1 class="h3 mb-3 fw-normal">Please register</h1></center>
 
-<img alt="Trello logo" src="\imports\ui\assets\trello.png">
-    
-<h1 class="h3 mb-3 fw-normal">Please register</h1>
+      <input  class="form-control" placeholder="Your Name or Nick" required>
 
-<input class="form-control" placeholder="Your Name or Nick" required>
+      <input  type="email" class="form-control" placeholder="Email" required>
 
-<input type="email" class="form-control" placeholder="Email" required>
+      <input  type="password" class="form-control" placeholder="Password">
 
-<input type="password" class="form-control" placeholder="Password">
       
-<button class="w-100 btn btn-lg btn-primary" type="submit">Sumbit</button>
-</center>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sumbit</button>
+    
+    </form>
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 <template>
+
       <form>
-          <br><br><br><br>
-            <img alt="Vue logo" src="@/assets/trello.svg">
+
  
     <br><br><br><br><br>
 
