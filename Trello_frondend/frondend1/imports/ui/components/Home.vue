@@ -11,7 +11,7 @@
 <br>
 <br>
 <div>
-  <p class="authors"><strong>Authors Project:</strong><br>Karolina Maciejewska <a href="https://github.com/Karo0510">Karolina Github</a><br>Maciej Morawski <a href="https://github.com/MacMarMor">Maciej Github</a><br>Adam Grzesiak <a href="https://github.com/adamg177">Adam Github</a></p>
+<p class="authors"><strong>Authors Project:</strong><br>Karolina Maciejewska <a href="https://github.com/Karo0510">Karolina Github</a><br>Maciej Morawski <a href="https://github.com/MacMarMor">Maciej Github</a><br>Adam Grzesiak <a href="https://github.com/adamg177">Adam Github</a></p>
     </div>
 
 </center>

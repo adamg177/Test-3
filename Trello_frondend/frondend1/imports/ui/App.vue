@@ -3,7 +3,7 @@
    
 <Navigation/>
 
-<router-view/>
+<router-view />
   </v-app>
 </template>
 
@@ -11,11 +11,27 @@
 import { Meteor } from 'meteor/meteor';
 import { Tracker } from 'meteor/tracker';
 import Navigation from '/imports/ui/components/Navigation.vue';
+import ButtonComponent from './components/ButtonComponent.vue';
 
 export default {
   components:{
-  Navigation
-}
+  Navigation,
+  ButtonComponent,
+},
+data() {
+  
+  return {
+    user : null,
+  }
+},
+created(){
+  Tracker.autorun(() => {
+ this.user = Meteor.user();
+ console.log(this.user)
+  });
+},
+
+
 };
 </script>
 

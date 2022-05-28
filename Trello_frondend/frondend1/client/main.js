@@ -14,6 +14,12 @@ import Navigation from '/imports/ui/components/Navigation.vue';
 
 import Home from '/imports/ui/components/Home.vue';
 
+import Card from '/imports/ui/components/Card.vue';
+
+
+
+
+
 
 Meteor.startup(() => {
   Vue.use(VueMeteorTracker);
@@ -36,9 +42,19 @@ Meteor.startup(() => {
         component: Register
       },
       {
+        path: '/',
+        name: 'Home',
+        component: Home
+      },
+      {
         path: '/Home',
         name: 'Home',
         component: Home
+      },
+      {
+        path: '/Card',
+        name: 'Card',
+        component: Card
       }
     ];
 
