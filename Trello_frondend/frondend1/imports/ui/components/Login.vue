@@ -49,6 +49,7 @@
 </template>
 
 <script>
+
 import Register from '/imports/ui/components/Register.vue';
 
 export default {
@@ -65,10 +66,13 @@ export default {
       Meteor.loginWithPassword(this.username, this.password);
     }
   },
+  
   login(){
-  this.$router.push('/Home')
+  this.$router.push('/PageAfterLogin')
   }
 }
+
+
 </script>
 
 <style scoped>

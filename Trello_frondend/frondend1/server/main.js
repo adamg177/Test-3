@@ -19,12 +19,7 @@ function insertLink({ name, password, Array_to_do, Array_in_proccesing, Array_do
   LinksCollection.insert({name, password, Array_to_do, Array_in_proccesing, Array_done});
 }
 
-function passwordToHash(password)
-{
-  const salt = bcrypt.genSaltSync(saltRounds)
-  const passwordHash = bcrypt.hashSync(password, salt);
-  return passwordHash
-}
+
 
 function comparePassword(username, password)
 {

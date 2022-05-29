@@ -16,6 +16,8 @@ import Home from '/imports/ui/components/Home.vue';
 
 import Card from '/imports/ui/components/Card.vue';
 
+import PageAfterLogin from '/imports/ui/components/PageAfterLogin.vue';
+
 
 
 
@@ -55,6 +57,11 @@ Meteor.startup(() => {
         path: '/Card',
         name: 'Card',
         component: Card
+      },
+      {
+        path: '/PageAfterLogin',
+        name: 'PageAfterLogin',
+        component: PageAfterLogin
       }
     ];
 
